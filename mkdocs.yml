@@ -1,0 +1,47 @@
+site_name: Kubernetes Basics Guide
+site_description: A comprehensive guide to Kubernetes for beginners
+site_author: Shubham
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_name: kubernetes-basics
+repo_url: https://github.com/shubham-singh-robomq/kubernetes-basics
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Introduction:
+    - What is Kubernetes?: introduction/what-is-kubernetes.md
+    - Why Kubernetes?: introduction/why-kubernetes.md
+    - Kubernetes Architecture: introduction/architecture.md
+  - Core Concepts:
+    - Pods: core-concepts/pods.md
+    - Deployments: core-concepts/deployments.md
+    - Services: core-concepts/services.md
+    - ConfigMaps and Secrets: core-concepts/configmaps-secrets.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - First Application: getting-started/first-application.md
+    - Basic Commands: getting-started/basic-commands.md
